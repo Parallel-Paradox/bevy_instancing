@@ -1,0 +1,11 @@
+[package]
+name = "bevy_instancing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+bevy = { path = "../bevy" } # TODO : Change to  official when PR merged.
+bytemuck = "1.12"
