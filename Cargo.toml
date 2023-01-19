@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 
-bevy = { path = "../bevy" } # TODO : Change to  official when PR merged.
+# TODO : Change to  official when PR https://github.com/bevyengine/bevy/pull/6155 merged.
+bevy = { git = "https://github.com/Parallel-Paradox/bevy.git", rev = "1468803" }
 bytemuck = "1.12"
